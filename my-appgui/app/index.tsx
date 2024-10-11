@@ -1,6 +1,6 @@
 import { View, StyleSheet } from 'react-native'
 import { Button, TextInput } from 'react-native-paper'
-import { useAuth } from '../context/auth'
+import { useAuth } from './context/auth'
 
 export default function Login() {
   const auth = useAuth()
